@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(231, 255, 144, 0.144);
+}
+.centrar{
+		position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		top:50%;
+		left:50%;
+		/*determinamos una anchura*/
+		width:500px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-200px;
+		/*determinamos una altura*/
+		height:400px;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+		margin-top:-150px;
+		border:1px solid #808080;
+		padding:5px;
+}
+
+.centrarCajaTxtNombre{
+    position: absolute;
+    top: 30%;
+    left:10%;
+    /*determinamos una anchura*/
+    width:300px;
+    /*determinamos una altura*/
+    height:15px; 
+}
+.textNombre{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.textContra{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.centrarCajaTxtContra{
+    position: absolute;
+    top: 50%;
+    left:10%;
+    /*determinamos una anchura*/
+    width:300px;
+    /*determinamos una altura*/
+    height:15px; 
+}
+
+.botonIngresar{
+    position: absolute;
+    top: 70%;
+    left:10%;
+    /*determinamos una anchura*/
+    width:300px;
+    /*determinamos una altura*/
+    height:25px; 
+}
+.botonCancelar{
+    position: absolute;
+    top: 70%;
+    left:70%;
+    /*determinamos una anchura*/
+    width:300px;
+    /*determinamos una altura*/
+    height:25px;
+}
+label{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+    font-size-adjust: 1.5;
+}
+button{
+    font-family: Arial;
+}
+
+.inicioSesionText{
+    position: absolute;
+    top: 10%;
+    left: 47%;
+}
