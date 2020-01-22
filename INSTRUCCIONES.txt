@@ -1,0 +1,2 @@
+No subir nada a la rama máster hasta que se apruebe la funcionalidad, todo se desarrollara en la rama de desarrollo.
+El objetivo de esta practica es que desarrollen por sus propios medios un perfil para conseguir trabajo, básicamente tendrán que poner su C.V.
