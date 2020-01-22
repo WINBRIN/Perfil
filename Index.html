@@ -2,8 +2,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/validacion.js"></script>
         <title>
-            Guillermo Barajas Arias
+            Perfiles de Trabajo
         </title>
     </head>
     <body>
@@ -12,16 +13,16 @@
         </div>
         <div class="centrar" >
             <label class="textNombre">Nombre</label>
-            <input class="centrarCajaTxtNombre" type="text" name="nombre"/>
+            <input class="centrarCajaTxtNombre" type="text" name="nombre" id="nombre"/>
 
             <label class="textContra">Contraseña</label>
-            <input class="centrarCajaTxtContra" type="password" name="contra"/>
+            <input class="centrarCajaTxtContra" type="password" name="contra" id="contra"/>
             
             <div class="botonCancelar">
                 <input type="button"  value="Cancelar" name="Cancelar">
             </div>
             <div class="botonIngresar">
-                <input type="button" value="Ingresar" name="Ingresar">
+                <input type="button" value="Ingresar" name="Ingresar" onclick="redirect()">
             </div>
         </div>
     </body>
