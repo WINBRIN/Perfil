@@ -7,13 +7,17 @@ function redirect (){
     //se valida que los valores no esten vacios
     if (nombre !=="" && pass!=="") {
         if (nombre == "Guillermo" && pass == "hola") {
-            location.href="../perfilGuillermo/perfilGuille.html";
+            window.location.href="C:/Users/emdashbort323/Documents/perfil/perfilGuillermo/perfilGuille.html";
+            limpiarInicio();
         } else if(nombre == "Cesar" && pass == "hola"){
-            location.href="../perfilCesar/perfilCesa.html";
+            window.location.href="C:/Users/emdashbort323/Documents/perfil/perfilCesar/perfilCesa.html";
+            limpiarInicio();
         }else if(nombre == "Brito" && pass == "hola"){
-            location.href="../perfilBrito/perfilBrit.html";
+            window.location.href="C:/Users/emdashbort323/Documents/perfil/perfilBrito/perfilBrit.html";
+            limpiarInicio();
         }else{
             alert("Usuario o contraseña son erroneos");
+            limpiarInicio();
         }
     } else {
         alert("Los campos estan vacios verifique");

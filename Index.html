@@ -7,7 +7,8 @@
             Perfiles de Trabajo
         </title>
     </head>
-    <body>
+    <body >
+        <form>
         <div class="inicioSesionText">
             <h1>Inicia Sesion</h1>
         </div>
@@ -19,11 +20,12 @@
             <input class="centrarCajaTxtContra" type="password" name="contra" id="contra"/>
             
             <div class="botonCancelar">
-                <input type="button"  value="Cancelar" name="Cancelar">
+                <input type="button"  value="Cancelar" name="Cancelar" onclick="limpiarInicio()">
             </div>
             <div class="botonIngresar">
                 <input type="button" value="Ingresar" name="Ingresar" onclick="redirect()">
             </div>
         </div>
+        </form>
     </body>
 </html>
