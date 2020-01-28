@@ -1,0 +1,155 @@
+header{
+    align-content: center;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.cabecera{
+    margin-top: 0;
+    padding-top: 45px;
+    /*text-align: center;*/
+    margin-left: 500px;
+    transition: .3s;
+}
+.textCabecera{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 3px 4px rgba(black, .1);
+    transition: .3s;
+}
+.textCabeceraP{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    text-shadow: 3px 4px rgba(black, .1);
+    transition: .3s;
+}
+.textNegritas{
+    font-weight:bold;
+}
+.marcoFotoCV{
+    position: absolute;
+    /*nos posicionamos en el centro del navegador*/
+    top:35%;
+    left:50%;
+    /*determinamos una anchura*/
+    width:350px;
+    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-600px;
+    /*determinamos una altura*/
+    height:250px;
+    /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-150px;
+    border:1px solid #808080;
+    padding:5px;
+}
+
+.marcoTrabajo{
+    position: absolute;
+    /*nos posicionamos en el centro del navegador*/
+    top:85%;
+    left:85%;
+    /*determinamos una anchura*/
+    width:7;
+    /*determinamos una altura*/
+    height:400px;
+    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-600px;
+    /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-150px;
+    border:0px solid #808080;
+    padding:5px;
+}
+.marcoSkill{
+    position: absolute;
+    /*nos posicionamos en el centro del navegador*/
+    top:150%;
+    left:85%;
+    /*determinamos una anchura*/
+    width:760px;
+    /*determinamos una altura*/
+    height:470px;
+    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-600px;
+    /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-150px;
+    border:0px solid #808080;
+    padding:5px;
+}
+
+.marcoEscuela{
+    position: absolute;
+    /*nos posicionamos en el centro del navegador*/
+    top:85%;
+    left:50%;
+    /*determinamos una anchura*/
+    width:400px;
+    /*determinamos una altura*/
+    height:400px;
+    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-600px;
+    /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-150px;
+    border:0px solid #808080;
+    padding:5px;
+}
+
+
+
+.marcoRedesSociales{
+    position: absolute;
+    /*nos posicionamos en el centro del navegador*/
+    top:150%;
+    left:85%;
+    /*determinamos una anchura*/
+    width:400px;
+    /*determinamos una altura*/
+    height:470px;
+    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-1070px;
+    /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-150px;
+    border:0px solid #808080;
+    padding:5px;
+}
+
+.facebook {
+    width:50px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:50px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+    background-image: url("img/facebook_0.png");
+    background-color: #ffffff;
+}
+.insta {
+    margin-top: 1em;
+    width:50px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:50px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+    background-image: url("img/instagram.png");
+    background-color: #ffffff;
+}
+.twitter {
+    margin-top: 1em;
+    width:60px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:60px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+    background-image: url("img/twitter.png");
+    background-color: #ffffff;
+}
+.gitHub {
+    width:60px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:60px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+    background-image: url("img/gitHub.png");
+    background-color: #ffffff;
+}
+.correo {
+    margin-top: 1em;
+    width:50px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:50px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+    background-image: url("img/correo.png");
+    background-color: #ffffff;
+}
+.telefono {
+    width:50px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:50px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+    background-image: url("img/telefono.png");
+    background-color: #ffffff;
+}
